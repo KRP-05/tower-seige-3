@@ -92,6 +92,8 @@ function setup() {
 function draw() {
   if(backgroundImg)
         background(backgroundImg);
+	background("grey")
+	
   rectMode(CENTER);
   noStroke();
   textSize(35);
